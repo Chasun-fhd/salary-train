@@ -15,12 +15,12 @@ public class BubbleSort implements Sort<int[]> {
         if (len <= 1) {
             return arr;
         }
-        for (int i = 0; i < len; ++i) {
-            for (int j = i + 1; j < len; ++j) {
-                if (arr[i] > arr[j]) {
+        for (int i = 1; i < len; ++i) {
+            for (int j = i - 1; j < len - i - 1; ++j) {
+                if (arr[j] > arr[j+1]) {
                     int tmp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = tmp;
+                    arr[j] = arr[j+1];
+                    arr[j+1] = tmp;
                 }
             }
         }
