@@ -29,7 +29,7 @@ public class MergeSort {
         mergeSortInternally(a, q + 1, r);
 
         // 将A[p...q]和A[q+1...r]合并为A[p...r]
-        merge(a, p, q, r);
+        mergeBySentry(a, p, q, r);
     }
 
     private static void merge(int[] a, int p, int q, int r) {
