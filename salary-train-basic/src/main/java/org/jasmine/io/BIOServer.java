@@ -27,6 +27,8 @@ public class BIOServer {
         ServerSocket serverSocket = new ServerSocket(7878);
         while (true) {
             Socket socket = serverSocket.accept();
+            socket.setTcpNoDelay(true);
+            socket.setSendBufferSize(23);
             executor.submit(() -> {
                 InputStream is;
                 OutputStream os;
@@ -43,7 +45,7 @@ public class BIOServer {
                     os = socket.getOutputStream();
                     os.write("Hi, Client. i am server".getBytes(Charsets.UTF_8));
                     os.flush();
-                } catch (IOException e) {
+                } catch (IOException  e) {
                     e.printStackTrace();
                 }
             });

@@ -6,7 +6,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.nio.ByteBuffer;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author: haidong.feng
@@ -16,26 +15,35 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class BIOClient {
 
     public static void main(String[] args) throws Exception {
-        for (int i = 0; i < 10; i++) {
+        /*for (int i = 0; i < 10; i++) {
             new Thread(() -> {
-                try {
+                try {*/
                     sendRequest();
-                } catch (Exception e) {
+        /*        } catch (Exception e) {
                     e.printStackTrace();
                 }
             }).start();
         }
+        */
         Thread.currentThread().join();
     }
 
     private static void sendRequest() throws Exception {
         Socket socket = new Socket("localhost", 7878);
+        socket.setTcpNoDelay(true);
+        socket.setReceiveBufferSize(23);
         OutputStream os = socket.getOutputStream();
         os.write(("Hi, server. i am client").getBytes(Charsets.UTF_8));
 
         InputStream is = socket.getInputStream();
-        byte[] buff = new byte[is.available()];
-        is.read(buff);
-        System.out.println(new String(buff, Charsets.UTF_8));
+        int contentLen = is.available();
+        ByteBuffer buff = ByteBuffer.allocate(contentLen);
+        byte[] bytes = new byte[contentLen];
+        is.read(bytes);
+        buff.put(bytes);
+        System.out.println(buff.array().length);
+        if (buff.hasArray()) {
+            System.out.println("client received:" + new String(buff.array(), Charsets.UTF_8));
+        }
     }
 }

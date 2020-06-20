@@ -1,5 +1,7 @@
 package org.jasmine;
 
+import com.google.common.base.Charsets;
+
 import java.lang.reflect.Field;
 
 /**
@@ -30,5 +32,8 @@ public class ReflectionTest {
 
         System.out.println(test.str2);
 
+
+        byte[] bytes = "Hi, Client. i am server".getBytes(Charsets.UTF_8);
+        System.out.println(bytes.length);
     }
 }
