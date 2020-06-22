@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34ae7103-1440-4687-b110-392858c21eee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/salary-train-basic">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/salary-train-datastructure">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/salary-train-gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/salary-train-middleware">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/salary-train-netty">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/salary-train-spring">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/salary-train-springcloud">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/salary-train-basic">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ccUKRaD8GTLxlqkvFpb1qHdNve" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="JavaDoc" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34ae7103-1440-4687-b110-392858c21eee" name="Default Changelist" comment="" />
+      <created>1590827310070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590827310070</updated>
+      <workItem from="1590827311697" duration="1835000" />
+      <workItem from="1590829184262" duration="8856000" />
+      <workItem from="1591363833628" duration="69000" />
+      <workItem from="1591364159720" duration="902000" />
+      <workItem from="1592402701627" duration="746000" />
+      <workItem from="1592834942351" duration="867000" />
+    </task>
+    <task id="LOCAL-00001" summary="example1">
+      <created>1590936624213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590936624213</updated>
+    </task>
+    <task id="LOCAL-00002" summary="use gradle">
+      <created>1592835629962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592835629962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="example1" />
+    <MESSAGE value="use gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="use gradle" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="58" key="#Project_Structure" timestamp="1592835390191">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="221" y="58" key="#Project_Structure/0.23.1280.740@0.23.1280.740" timestamp="1592835390191" />
+    <state x="104" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592835808078">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="104" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.740@0.23.1280.740" timestamp="1592835808078" />
+    <state x="434" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1590828296547">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="434" y="109" key="#com.intellij.ide.util.MemberChooser/0.23.1280.740@0.23.1280.740" timestamp="1590828296547" />
+    <state x="384" y="103" key="#xdebugger.evaluate" timestamp="1590832148500">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="384" y="103" key="#xdebugger.evaluate/0.23.1280.740@0.23.1280.740" timestamp="1590832148500" />
+    <state x="371" y="138" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591364328308">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="371" y="138" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.740@0.23.1280.740" timestamp="1591364328308" />
+    <state x="89" y="23" key="CommitChangelistDialog2" timestamp="1592835629319">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="89" y="23" key="CommitChangelistDialog2/0.23.1280.740@0.23.1280.740" timestamp="1592835629319" />
+    <state width="467" height="438" key="DebuggerActiveHint" timestamp="1590832392005">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="467" height="438" key="DebuggerActiveHint/0.23.1280.740@0.23.1280.740" timestamp="1590832392005" />
+    <state width="1238" height="185" key="GridCell.Tab.0.bottom" timestamp="1592835691780">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.23.1280.740@0.23.1280.740" timestamp="1592835691780" />
+    <state width="1238" height="185" key="GridCell.Tab.0.center" timestamp="1592835691779">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.0.center/0.23.1280.740@0.23.1280.740" timestamp="1592835691779" />
+    <state width="1238" height="185" key="GridCell.Tab.0.left" timestamp="1592835691778">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.0.left/0.23.1280.740@0.23.1280.740" timestamp="1592835691778" />
+    <state width="1238" height="185" key="GridCell.Tab.0.right" timestamp="1592835691779">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.0.right/0.23.1280.740@0.23.1280.740" timestamp="1592835691779" />
+    <state width="1201" height="105" key="GridCell.Tab.1.bottom" timestamp="1591363749094">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="1201" height="105" key="GridCell.Tab.1.bottom/0.23.1280.740@0.23.1280.740" timestamp="1591363749094" />
+    <state width="1201" height="105" key="GridCell.Tab.1.center" timestamp="1591363749093">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="1201" height="105" key="GridCell.Tab.1.center/0.23.1280.740@0.23.1280.740" timestamp="1591363749093" />
+    <state width="1201" height="105" key="GridCell.Tab.1.left" timestamp="1591363749093">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="1201" height="105" key="GridCell.Tab.1.left/0.23.1280.740@0.23.1280.740" timestamp="1591363749093" />
+    <state width="1201" height="105" key="GridCell.Tab.1.right" timestamp="1591363749094">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="1201" height="105" key="GridCell.Tab.1.right/0.23.1280.740@0.23.1280.740" timestamp="1591363749094" />
+    <state x="353" y="116" key="MultipleFileMergeDialog" timestamp="1592835678673">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="353" y="116" key="MultipleFileMergeDialog/0.23.1280.740@0.23.1280.740" timestamp="1592835678673" />
+    <state x="130" y="32" key="SettingsEditor" timestamp="1591364592087">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="130" y="32" key="SettingsEditor/0.23.1280.740@0.23.1280.740" timestamp="1591364592087" />
+    <state x="351" y="132" width="540" height="524" key="StructurePopup" timestamp="1591364721894">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="351" y="132" width="540" height="524" key="StructurePopup/0.23.1280.740@0.23.1280.740" timestamp="1591364721894" />
+    <state x="221" y="133" key="Vcs.Push.Dialog.v2" timestamp="1592835632005">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="221" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.740@0.23.1280.740" timestamp="1592835632005" />
+    <state x="411" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592490118212">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="411" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.740@0.23.1280.740" timestamp="1592490118212" />
+    <state width="457" height="350" key="documentation.popup.size" timestamp="1590829425486">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="457" height="350" key="documentation.popup.size/0.23.1280.740@0.23.1280.740" timestamp="1590829425486" />
+    <state x="34" y="23" key="new project wizard" timestamp="1592835669655">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="34" y="23" key="new project wizard/0.23.1280.740@0.23.1280.740" timestamp="1592835669655" />
+    <state x="286" y="87" width="670" height="676" key="search.everywhere.popup" timestamp="1591366527880">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="286" y="87" width="670" height="676" key="search.everywhere.popup/0.23.1280.740@0.23.1280.740" timestamp="1591366527880" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>307</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>271</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>491</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
