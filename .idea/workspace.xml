@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34ae7103-1440-4687-b110-392858c21eee" name="Default Changelist" comment="" />
+    <list default="true" id="34ae7103-1440-4687-b110-392858c21eee" name="Default Changelist" comment="use gradle">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/salary-train-basic/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/salary-train-basic/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/AioClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/AioClientTimeHandler$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/AioClientTimeHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/AioClientTimeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/AioServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/AioServerAcceptCompletionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/AioServerTimeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/ReadCompletionHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/aio/ReadCompletionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/nio/NioClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/nio/NioExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-basic/build/classes/java/main/nio/NioServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-netty/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/salary-train-netty/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salary-train-netty/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/salary-train-netty/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,9 +72,53 @@
         <task path="$PROJECT_DIR$/salary-train-basic">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/salary-train-netty">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="salary-train-basic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="salary-train-basic" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="salary-train-basic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="salary-train-basic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="salary-train-netty" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="salary-train-netty" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="salary-train-netty" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="salary-train-netty" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -108,6 +171,52 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="JavaDoc" />
   </component>
+  <component name="RunManager" selected="Gradle./Users/fenghaidong/local/idea_workspace/salary-train/salary-train-netty [clean]">
+    <configuration name="/Users/fenghaidong/local/idea_workspace/salary-train/salary-train-netty [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/salary-train-netty" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="salary-train-basic [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/salary-train-basic" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle./Users/fenghaidong/local/idea_workspace/salary-train/salary-train-netty [clean]" />
+        <item itemvalue="Gradle.salary-train-basic [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -139,6 +248,7 @@
       <workItem from="1591364159720" duration="902000" />
       <workItem from="1592402701627" duration="746000" />
       <workItem from="1592834942351" duration="867000" />
+      <workItem from="1593268733262" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="example1">
       <created>1590936624213</created>
@@ -187,30 +297,30 @@
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state x="371" y="138" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.740@0.23.1280.740" timestamp="1591364328308" />
-    <state x="89" y="23" key="CommitChangelistDialog2" timestamp="1592835629319">
+    <state x="89" y="23" key="CommitChangelistDialog2" timestamp="1593268953714">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
-    <state x="89" y="23" key="CommitChangelistDialog2/0.23.1280.740@0.23.1280.740" timestamp="1592835629319" />
+    <state x="89" y="23" key="CommitChangelistDialog2/0.23.1280.740@0.23.1280.740" timestamp="1593268953714" />
     <state width="467" height="438" key="DebuggerActiveHint" timestamp="1590832392005">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="467" height="438" key="DebuggerActiveHint/0.23.1280.740@0.23.1280.740" timestamp="1590832392005" />
-    <state width="1238" height="185" key="GridCell.Tab.0.bottom" timestamp="1592835691780">
+    <state width="1238" height="225" key="GridCell.Tab.0.bottom" timestamp="1593268809956">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.23.1280.740@0.23.1280.740" timestamp="1592835691780" />
-    <state width="1238" height="185" key="GridCell.Tab.0.center" timestamp="1592835691779">
+    <state width="1238" height="225" key="GridCell.Tab.0.bottom/0.23.1280.740@0.23.1280.740" timestamp="1593268809956" />
+    <state width="1238" height="225" key="GridCell.Tab.0.center" timestamp="1593268809955">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.center/0.23.1280.740@0.23.1280.740" timestamp="1592835691779" />
-    <state width="1238" height="185" key="GridCell.Tab.0.left" timestamp="1592835691778">
+    <state width="1238" height="225" key="GridCell.Tab.0.center/0.23.1280.740@0.23.1280.740" timestamp="1593268809955" />
+    <state width="1238" height="225" key="GridCell.Tab.0.left" timestamp="1593268809955">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.left/0.23.1280.740@0.23.1280.740" timestamp="1592835691778" />
-    <state width="1238" height="185" key="GridCell.Tab.0.right" timestamp="1592835691779">
+    <state width="1238" height="225" key="GridCell.Tab.0.left/0.23.1280.740@0.23.1280.740" timestamp="1593268809955" />
+    <state width="1238" height="225" key="GridCell.Tab.0.right" timestamp="1593268809956">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.right/0.23.1280.740@0.23.1280.740" timestamp="1592835691779" />
+    <state width="1238" height="225" key="GridCell.Tab.0.right/0.23.1280.740@0.23.1280.740" timestamp="1593268809956" />
     <state width="1201" height="105" key="GridCell.Tab.1.bottom" timestamp="1591363749094">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
@@ -231,6 +341,10 @@
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state x="353" y="116" key="MultipleFileMergeDialog/0.23.1280.740@0.23.1280.740" timestamp="1592835678673" />
+    <state x="257" y="111" key="RollbackChangesDialog" timestamp="1593268927501">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="257" y="111" key="RollbackChangesDialog/0.23.1280.740@0.23.1280.740" timestamp="1593268927501" />
     <state x="130" y="32" key="SettingsEditor" timestamp="1591364592087">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
@@ -239,10 +353,10 @@
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state x="351" y="132" width="540" height="524" key="StructurePopup/0.23.1280.740@0.23.1280.740" timestamp="1591364721894" />
-    <state x="221" y="133" key="Vcs.Push.Dialog.v2" timestamp="1592835632005">
+    <state x="221" y="133" key="Vcs.Push.Dialog.v2" timestamp="1593268740984">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
-    <state x="221" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.740@0.23.1280.740" timestamp="1592835632005" />
+    <state x="221" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.740@0.23.1280.740" timestamp="1593268740984" />
     <state x="411" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592490118212">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
