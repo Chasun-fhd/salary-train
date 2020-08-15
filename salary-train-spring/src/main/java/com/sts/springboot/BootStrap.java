@@ -2,6 +2,8 @@ package com.sts.springboot;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
  * @author: haidong.feng
@@ -9,6 +11,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  * @description:
  **/
 @SpringBootApplication
+@EnableWebMvc
+@EnableJpaRepositories
 public class BootStrap {
 
     public static void main(String[] args) {
