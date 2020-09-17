@@ -1,5 +1,9 @@
 package examples;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 /**
  * @author: haidong.feng
  * @createdAt: 2020/9/16
@@ -9,30 +13,46 @@ public class TreeTraverse {
 
     public static void main(String[] args) {
         TreeTraverse invoker = new TreeTraverse();
-        TreeNode root  = invoker.init();
+        TreeNode root = invoker.init();
         //System.out.println(JSONObject.toJSONString(root));
-//        invoker.preOrderTraverse(root);
-        invoker.midOrderTraverse(root);
+        List<Integer> retList = new ArrayList<>();
+        invoker.preOrderTraverse(root, retList);
+        retList.forEach(e -> System.out.print(e + "->"));
+        retList.clear();
+        System.out.println("\n==========================");
+        invoker.midOrderTraverse(root, retList);
+        retList.forEach(e -> System.out.print(e + "->"));
+        System.out.println("\n==========================");
+        retList.clear();
+        invoker.afterOrderTraverse(root, retList);
+        retList.forEach(e -> System.out.print(e + "->"));
     }
 
-    private void preOrderTraverse(TreeNode root) {
+    private void preOrderTraverse(TreeNode root, List<Integer> retList) {
         if (root == null) {
             return;
         }
-        if (root.left != null || root.right != null) {
-            System.out.println("root:" + root.value);
-        } else {
-            System.out.println("node:" + root.value);
-        }
-        preOrderTraverse(root.left);
-        preOrderTraverse(root.right);
+        retList.add(root.value);
+        preOrderTraverse(root.left, retList);
+        preOrderTraverse(root.right, retList);
     }
 
-    private void midOrderTraverse(TreeNode root) {
+    private void midOrderTraverse(TreeNode root, List<Integer> retList) {
         if (root == null) {
             return;
         }
+        midOrderTraverse(root.left, retList);
+        retList.add(root.value);
+        midOrderTraverse(root.right, retList);
+    }
 
+    private void afterOrderTraverse(TreeNode root, List<Integer> retList) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        retList.add(root.value);
+        stack.push(root);
     }
 
     class TreeNode {
