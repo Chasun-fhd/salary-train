@@ -50,9 +50,9 @@ public class TreeTraverse {
         if (root == null) {
             return;
         }
-        Stack<TreeNode> stack = new Stack<>();
+        afterOrderTraverse(root.left, retList);
+        afterOrderTraverse(root.right, retList);
         retList.add(root.value);
-        stack.push(root);
     }
 
     class TreeNode {
