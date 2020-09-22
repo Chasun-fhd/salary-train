@@ -50,28 +50,9 @@ public class TreeTraverse {
         if (root == null) {
             return;
         }
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode empty = new TreeNode(-1);
-        stack.push(root);
-        while (!stack.empty()) {
-            TreeNode first = stack.firstElement();
-            if(first == empty) {
-                stack.pop();
-                retList.add(stack.firstElement().value);
-                stack.pop();
-                continue;
-            }
-
-            stack.push(empty);
-
-            if(first.left != null) {
-                stack.push(first.left);
-            }
-            if(first.right != null) {
-                stack.push(first.right);
-            }
-        }
-
+        afterOrderTraverse(root.left, retList);
+        afterOrderTraverse(root.right, retList);
+        retList.add(root.value);
     }
 
     class TreeNode {
