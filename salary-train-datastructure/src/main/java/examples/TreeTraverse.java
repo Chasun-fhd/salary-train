@@ -51,8 +51,27 @@ public class TreeTraverse {
             return;
         }
         Stack<TreeNode> stack = new Stack<>();
-        retList.add(root.value);
+        TreeNode empty = new TreeNode(-1);
         stack.push(root);
+        while (!stack.empty()) {
+            TreeNode first = stack.firstElement();
+            if(first == empty) {
+                stack.pop();
+                retList.add(stack.firstElement().value);
+                stack.pop();
+                continue;
+            }
+
+            stack.push(empty);
+
+            if(first.left != null) {
+                stack.push(first.left);
+            }
+            if(first.right != null) {
+                stack.push(first.right);
+            }
+        }
+
     }
 
     class TreeNode {
