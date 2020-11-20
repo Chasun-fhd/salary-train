@@ -1,3 +1,5 @@
+package leetcode.problems;
+
 /**
  * @author: haidong.feng
  * @createdAt: 2020/11/2
@@ -8,6 +10,9 @@ public class Strings {
     public static void main(String[] args) {
         int ret = new Strings().count(3, 7);
         System.out.println(ret);
+
+        System.out.println((int)'a');
+        System.out.println((int)'z');
     }
 
     public int count(int m, int n) {

@@ -1,4 +1,4 @@
-package binarytree;
+package leetcode.problems;
 
 /**
  * @author: haidong.feng
