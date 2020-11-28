@@ -24,7 +24,7 @@ public class RedisLock {
     public boolean tryLock(long ttl, TimeUnit timeUnit) {
         String value = UUID.randomUUID().toString().concat("-"+Thread.currentThread().getId());
         try {
-            boolean success = redisTemplate.opsForValue().setIfAbsent("hello", value, 100, TimeUnit.MILLISECONDS);
+            boolean success = redisTemplate.opsForValue().setIfAbsent("hello", value, ttl, timeUnit);
             System.out.println(String.format("Thread[%s] acquire lock [%s]: %b", Thread.currentThread().getId(),  value,success));
             if (success) {
                 cnt++;
@@ -33,8 +33,8 @@ public class RedisLock {
         } catch (Exception e ) {
            e.printStackTrace();
         } finally {
-            System.out.println(String.format("Thread[%s] begin to release lock", Thread.currentThread().getId()));
             if (Objects.equals(redisTemplate.opsForValue().get("hello"), value)) {
+                System.out.println(String.format("Thread[%s] begin to release lock", Thread.currentThread().getId()));
                 redisTemplate.expire("hello", 1, TimeUnit.MILLISECONDS);
                 System.out.println(String.format("Thread[%s] release lock finished", Thread.currentThread().getId()));
             }
