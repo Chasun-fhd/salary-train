@@ -9,7 +9,7 @@ public class MergeSort  extends AbstractArrSort {
 
     @Override
     public void doSort(int[] arr) {
-
+        sort(arr, 0, arr.length-1);
     }
 
     private void sort(int[] arr, int left, int right) {
@@ -31,17 +31,16 @@ public class MergeSort  extends AbstractArrSort {
                 tmp[k++] = arr[i++];
             }
         }
-         while ( i<=left ) {
+         while (i<=mid ) {
              tmp[k++] = arr[i++];
          }
-         while (j<= right) {
+         while (j<=right) {
              tmp[k++] = arr[j++];
          }
 
          //copy to original arr
-        int m = 0;
-        for (m = m + left; m < tmp.length; m++) {
-            arr[m] = tmp[m];
+        for (int m = 0; m < tmp.length; m++) {
+            arr[left+m] = tmp[m];
         }
     }
 }

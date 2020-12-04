@@ -14,10 +14,10 @@ public class SortStarters {
         //new BubbleSort().sort(arr);
         //new InsertionSort().sort(arr);
         //new SelectionSort().sort(arr);
-        //new MergeSort().sort(arr);
+        new MergeSort().sort(arr);
         //new QuickSort().sort(arr);
-        arr = new HeapSort1().sort(arr);
-        Arrays.stream(arr).forEach(System.out::print);
+        //arr = new HeapSort1().sort(arr);
+       //Arrays.stream(arr).forEach(System.out::print);
     }
 
 
